@@ -1,0 +1,46 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+li {
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large
+}
+
+h2 {
+    color: blueviolet;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+
+}
+
+ul {
+    color: rgb(255, 0, 60);
+    font-size: xx-large;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+
+    .footer-class {
+        font-size: small
+    }

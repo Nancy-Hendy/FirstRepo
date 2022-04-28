@@ -1,0 +1,48 @@
+table,
+th,
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aquamarine;
+}
+table {
+    width: 80%;
+  }
+  
+  th {
+    height: 80px;
+  }
+  td {
+      height: 150px;
+  }
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+td {
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: xx-large;
+
+}
+
+ul {
+    color: rgb(255, 0, 60);
+    font-size: xx-large;
+}
+
+.footer-class {
+    font-size: small
+}
+.th-class {
+    font-size: xx-large;
+    font: bold;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
